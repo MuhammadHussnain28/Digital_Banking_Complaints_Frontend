@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@plugin "tailwind-scrollbar-hide";
+
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+  --font-google: 'Google Sans Flex', sans-serif;
+  --font-jakarta : 'Plus Jakarta Sans' , sans-serif;
+}
