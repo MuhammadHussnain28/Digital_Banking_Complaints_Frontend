@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import DashboardLayout from './layout/DashboardLayout'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
-import LoginPage from './pages/loginPage.jsx'
+import LoginPage from './pages/LoginPage.jsx'
 import HomePage from './pages/HomePage.jsx'
 import DashboardPage from './pages/DashboardPage.jsx'
 import RegisterPage from './pages/RegisterPage.jsx'
