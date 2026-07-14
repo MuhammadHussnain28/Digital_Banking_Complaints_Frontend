@@ -250,6 +250,7 @@ function DashboardLayout({ children }) {
 
   // ── CHANGE 1: Fixed the bug — was a string literal "currentPageMatch.name"
   const currentPageMatch = navItems.find((each) => each.slug === location.pathname)
+  // console.log("currentPageMatch: " , currentPageMatch)
   const pageTitle = currentPageMatch ? currentPageMatch.name : "Overview"
 
 
